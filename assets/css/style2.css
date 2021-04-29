@@ -358,6 +358,11 @@
 .Notion .Tistory p code {
   color: #eb5757;
   font-size: 85%;
+  padding: 2px 5px;
+  border-radius: 3px;
+  background: #efefef;
+  margin: 0 2px;
+  border: 1px solid #e0e0e0;
 }
 
 /*

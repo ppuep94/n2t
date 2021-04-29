@@ -354,8 +354,8 @@
 }
 */
 
-/* p 문단 태그 내부의 단어 단위 code 블럭 색깔 설정 jmjeon */
-.Notion .Tistory p code {
+/* 단어 코드 블럭(cmd+e) 색 설정 hljs는 문단코드 블럭으로 제외*/
+.Notion .Tistory code:not(.hljs) {
   color: #eb5757;
   font-size: 85%;
   padding: 2px 5px;

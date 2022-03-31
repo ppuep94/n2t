@@ -1,4 +1,11 @@
 /* CSS for Notion Posts Start*/
+.Notion .Tistory body, .Notion .Tistory th, .Notion .Tistory td, .Notion .Tistory input, .Notion .Tistory select, .Notion .Tistory textarea, .Notion .Tistory button {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Noto Sans', sans-serif;
+    color: #666;
+}
+
 .Notion .Tistory {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
     "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
@@ -8,7 +15,7 @@
 
 .Notion .Tistory a,
 .Notion .Tistory a.visited {
-  color: rgb(172, 172, 172);
+  color: inherit;
   text-decoration: underline;
 }
 
@@ -713,8 +720,21 @@ em {
   font-style: italic;
 }
 
+/* 테이블 css */
+.Notion .Tistory .simple-table {
+  margin-top: 1em;
+  font-size: 0.875rem;
+}
+
+.Notion .Tistory .simple-table-header {
+  background: rgb(247, 246, 243);
+  color: black;
+  font-weight: 500;
+}
+
+
 /* 리스트블록 앞 마진 제거 */
-.Notion .Tistory .skin_view .area_view ul li, .skin_view .area_view ol li {
+.Notion .Tistory .skin_view .area_view ul li, .Notion .Tistory .skin_view .area_view ol li {
 margin-left: 0px;
 margin-bottom: 0px;
 }

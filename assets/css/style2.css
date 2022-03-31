@@ -8,7 +8,7 @@
 
 .Notion .Tistory a,
 .Notion .Tistory a.visited {
-  color: inherit;
+  color: rgb(172, 172, 172);
   text-decoration: underline;
 }
 
@@ -711,6 +711,12 @@
 
 em {
   font-style: italic;
+}
+
+/* 리스트블록 앞 마진 제거 */
+.Notion .Tistory .skin_view .area_view ul li, .skin_view .area_view ol li {
+margin-left: 0px;
+margin-bottom: 0px;
 }
 
 /* CSS for Notion Posts Done*/

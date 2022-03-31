@@ -1,5 +1,5 @@
 /* CSS for Notion Posts Start*/
-.Notion .Tistory body {
+body .Notion .Tistory {
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Noto Sans', sans-serif;
@@ -741,12 +741,12 @@ em {
 
 
 /* 리스트블록 앞 마진 제거 */
-.Notion .Tistory .skin_view .area_view ul li {
+.Notion .Tistory ul li {
 margin-left: 0px;
 margin-bottom: 0px;
 }
 
-.Notion .Tistory .skin_view .area_view ol li {
+.Notion .Tistory ol li {
 margin-left: 0px;
 margin-bottom: 0px;
 }
